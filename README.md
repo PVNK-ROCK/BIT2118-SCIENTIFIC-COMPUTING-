@@ -43,14 +43,3 @@ input data, output and interpretation.
 └── images/      # graphs produced by the programs
 ```
 
-## How to run
-
-```bash
-pip install -r requirements.txt
-# run from the repository root so the graphs are saved in ./images
-python code/Task_02_numpy_arrays.py
-python code/Task_02_extension.py
-```
-
-Scripts that draw graphs call `plt.show()`; the same figure is also saved to `images/`. Task 16 uses `np.trapezoid`,
-which needs **NumPy 2.0 or newer** (use `np.trapz` on older versions). Timings in Tasks 3 and 7 vary between computers.
